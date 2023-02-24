@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.producttable {
+    margin-left: 20px;
+}
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+#scrollable {
+  height: 100%;
+  overflow: auto;
+}
+#footer {
+  font-size: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px; /* Footer height */
+  text-align: center;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+  }
+
+.whole {
+  position: relative;
+  height: 100%;
+}
+
+.child {
+  height: calc(100% - 30px); /* footer height */
+  overflow-y: auto;
+
+}
+
+.page1 {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url("newbg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.heading {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background: #443A39;
+  Border-radius: 40px; Border-radius: 12px 14px 12px 14px;
+
+}
+
+.heading img {
+  padding-left: 30px;
+}
+
+.heading ul li{
+  display: inline-block;
+  list-style-type: none;
+  font-size: 15px;
+  float: left;
+  padding-top: 15px;
+  padding-right: 50px;
+ 
+}
+
+.heading ul li a{
+  margin-left: 100px;
+  padding: 10px;
+  color: WHITE  ;
+  text-decoration:none;
+  
+}
+
+.heading ul li a:hover {
+  cursor:pointer;
+    position:relative;
+    background: #272120;
+    font-size:15px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+  
+  
+  .data-container{
+    background:#ffebee;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+.heading ul li .special1 {
+  border: black;
+  background: rgb(253, 215, 43);
+  margin-left: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  Border-radius: 40px; Border-radius: 12px 14px 12px 14px;
+  
+}
+
+.heading ul li .special1 {
+  border: 2px black solid;
+  background: white;
+  margin-left: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  Border-radius: 40px; Border-radius: 12px 14px 12px 14px;
+  
+}
+
+.pobutton {
+  margin-top: 480px;
+  margin-right: 130px;
+
+}
+.pobutton a{
+  color: black;
+}
+
+.pobutton a:hover {
+    cursor:pointer;
+    padding: 20px;
+    position:relative;
+    background:rgb(102, 102, 102);
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+  
+
+.page2 {
+    padding-top: 50px;
+    width:100%;
+    height: 100%;
+    background: white;
+    background-image: url("page2bg.png");
+  
+}
+
+.fname {
+    border: 1px black solid;
+    Border-radius: 40px; Border-radius: 12px 14px 12px 14px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align:
+}
+
+
+.page3 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+.sushipic {
+width: 200px;
+}
+
+.page3 ul li {
+display: inline-block;
+list-style-type: none;
+font-size: 15px;
+text-align: center;
+padding-top: 15px;
+padding-right: 100px;
+
+
+}
+
+.page3 ul li a{
+	text-decoration:none;
+	padding:10px;
+	color:rgb(26, 25, 25);
+}
+
+
+.page3 ul li a:hover {
+	color:orange;
+	padding-top:15px
+}
+
+.page4 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+.inputcontainer{
+  margin: auto;
+  width: 400px;
+}
+
+.tagname {
+  float: left;
+  margin-top: 110px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.adnum {
+  margin-top: 250px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.formname {
+font-size: 35px;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: groove;
+background-color: white;
+border-color: orange;
+margin-top: 50px;
+outline: none;
+width: 500px;
+}
+
+.showdates {
+  font-size: 25px;
+}
+
+
+.name {
+  margin-left: 40%;
+  background: white;
+  font-size: 30px;
+  border-color: transparent
+  
+}
+
+
+.page5 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+.page6{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+.page7 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+.page8 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  background: white;
+
+}
+
+.btn-checkout {
+  color: white;
+  font-size: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 10px 30px;
+  display: flex;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.btn-checkout:hover {
+  color: white;
+  background-color: #ffc70d;
+}
+
+/* ============== PAGE UP AND DOWN BUTTON ==================*/
+
+.page1d {
+  color: white;
+  background-color: black;
+  float:bottom;
+  
+}
+
+.date1 {
+  height: 20px;
+  font-size: 20px;
+}
+
+
+input[type="radio"]{
+  display: none;
+  cursor: pointer;
+}
+
+.dates {
+  color: #000000;
+  font-size: 20px;
+  border: 2px solid #e29300;
+  border-radius: 5px;
+  padding: 10px 50px;
+  display: flex;
+  width: 300px;
+  cursor: pointer;
+ 
+  
+}
+
+.dates:hover
+{
+  background-color: rgb(211, 211, 211);
+}
+.dates:before{
+  
+  content: "";
+  height: 30px;
+  width: 30px;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+
+input[type="radio"]:checked + label{
+  background-color: #ffc118;
+  color: white;
+}
+
+input[type="radio"]:checked+label:before{
+  height: 16px;
+  width: 16px;
+  border: 10px solid white;
+  background-color: #000000;
+}
+
+
+
+.page1 {
+  height: 100vh;
+  background-image: url("newbg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .background-image {
+    background-image: url("bgsushi.png");
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .background-image {
+    background-image: url("bgsushi.png");
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .background-image {
+    background-image: url("bgsushi.png");
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .background-image {
+    background-image: url("bgsushi.png");
+  }
+}
+
+.p3buy {
+  font-size: 30px;
+  color: rgb(65, 65, 0);
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 110px;
+}
